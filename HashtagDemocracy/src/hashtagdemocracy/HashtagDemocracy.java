@@ -13,7 +13,10 @@ import org.bukkit.plugin.java.JavaPlugin;
  * @author baileypellow
  */
 public final class HashtagDemocracy extends JavaPlugin{
-    //WHen the plan comes out we can sort out who does what.
+    //When the plan comes out we can sort out who does what.
 
-    
+    @Override
+    public void onEnable(){
+        
+    }
 }
