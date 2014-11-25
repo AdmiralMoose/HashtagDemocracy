@@ -1,46 +1,54 @@
 HashtagDemocracy
 ================
+
+A Minecraft Democratic Plugin
 This plugin will be compatible with Bukkit versions 1.7.x-1.8.1.
 
-Minecraft Democratic Plugin
+Name: **HashtagDemocracy**
 
-Compatible with Bukkit v1.7.x
+**Developers:**
+=======
 
-Name: HashtagDemocracy
+**[AdmiralMoose](http://github.com/AdmiralMoose "AdmiralMoose")**
 
-Developers: AdmiralMoose, bwfcwalshy, TGRHavoc, JOSHSLAYDE
+**[bwfcwalshy](http://github.com/bwfcwalshy "bwfcwalshy")**
 
-Github Repo (Clone Address): https://github.com/AdmiralMoose/HashtagDemocracy.git
+**[TGRHavoc](http://github.com/TGRHavoc "TGRHavoc")**
 
-Features: HashtagDemocracy will have numerous features. They are listed below…
+**[JOSHSLAYDE](http://github.com/JOSHSLAYDE "JOSHSLAYDE")**
 
-3 month elections of prime minister
+Github Repo (Clone URL): https://github.com/AdmiralMoose/HashtagDemocracy.git 
 
-Political Parties setup by users (For a small donation..?)
+**Features:**
 
-Configurable parliament seats (Amount) (Default 20)
+1. 3 month elections of prime minister
 
-Parliamentary debates  (To propose,moderate bills)
+2. Political Parties setup by users (For a small donation..?)
+ 
+3. Configurable parliament seats (Amount) (Default 20)
+ 
+4. Parliamentary debates  (To propose,moderate bills)
+ 
+5. House of representatives
+ 
+6. Maiden Speeches
+ 
+7. Cabinet ministers
+ 
+8. Elections campaigns
 
-House of representatives
+9. Party caucuses
 
-Maiden Speeches
+10. Electorates in worlds (configurable amount per world) (Set using world edit?)
 
-Cabinet ministers
+11. Party MPs
 
-Elections campaigns
+12. 2 votes, party and local representatives
 
-Party caucuses
-
-Electorates in worlds (configurable amount per world) (Set using world edit?)
-
-Party MPs
-
-2 votes, party and local representatives
-
-Any other features submittable on this Doc, or via the Bukkit chat.
+**_Any other features submittable on this Doc, or via the Bukkit chat._**
 
 Executive Summary
+------
 
 HashtagDemocracy is an advanced Democracy plugin for servers. In essence, it allows user to run for Prime Minister, who controls the server through a cabinet. This Prime Minister has the ability to alter the rules, after a debate in the House of representatives. Servers will possibly define electorates using WorldEdit, or by setting a centre point of the world and allowing the plugin to automatically define electorates on four sides of the centre block. As you pass into an electorate, the plugin will give you a message. This could possibly have Worldguard integration..? The plugin will automatically hold an election every three months (Voting to be confirmed, discuss!)
 
