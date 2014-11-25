@@ -2,11 +2,13 @@ HashtagDemocracy
 ================
 Minecraft Democratic Plugin
 
+Compatible with Bukkit v1.7.x
+
 Name: HashtagDemocracy
 
 Developers: AdmiralMoose, bwfcwalshy, TGRHavoc, JOSHSLAYDE
 
-Github Repo (Clone Address): 
+Github Repo (Clone Address): https://github.com/AdmiralMoose/HashtagDemocracy.git
 
 Features: HashtagDemocracy will have numerous features. They are listed below…
 
@@ -40,6 +42,6 @@ Executive Summary
 
 HashtagDemocracy is an advanced Democracy plugin for servers. In essence, it allows user to run for Prime Minister, who controls the server through a cabinet. This Prime Minister has the ability to alter the rules, after a debate in the House of representatives. Servers will possibly define electorates using WorldEdit, or by setting a centre point of the world and allowing the plugin to automatically define electorates on four sides of the centre block. As you pass into an electorate, the plugin will give you a message. This could possibly have Worldguard integration..? The plugin will automatically hold an election every three months (Voting to be confirmed, discuss!)
 
-This is the Github readme file, so you are free to comment for a change.
+This is the Github readme file, so you are free to change.
 
 -Admiral
