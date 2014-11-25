@@ -2,6 +2,6 @@ package hashtagdemocracy;
 
 public enum Roles{
 
-  MP, PRIMEMINISTER;
+  MP, PRIMEMINISTER, GOVTMINISTER, DEPUTYPM, PARTYLEADER;
 
 }
