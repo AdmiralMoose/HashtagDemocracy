@@ -1,5 +1,9 @@
 package hashtagdemocracy.monthsHandler;
 
+import hashtagdemocracy.events.EndVoting;
+import hashtagdemocracy.events.StartVoting;
+import hashtagdemocracy.events.TimeExpired;
+
 import org.bukkit.Bukkit;
 
 public class TimerThread extends Thread{

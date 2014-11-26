@@ -1,9 +1,5 @@
 package hashtagdemocracy.events;
 
-import hashtagdemocracy.monthsHandler.EndVoting;
-import hashtagdemocracy.monthsHandler.StartVoting;
-import hashtagdemocracy.monthsHandler.TimeExpired;
-
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
