@@ -1,9 +1,13 @@
 package hashtagdemocracy.events;
 
+import hashtagdemocracy.monthsHandler.EndVoting;
+import hashtagdemocracy.monthsHandler.StartVoting;
+import hashtagdemocracy.monthsHandler.TimeExpired;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-public class VotingHandler extends Listener{
+public class VotingHandler implements Listener{
   
   @EventHandler
   public void endElectoral(TimeExpired event){

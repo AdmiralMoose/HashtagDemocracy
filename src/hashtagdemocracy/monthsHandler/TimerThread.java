@@ -21,8 +21,8 @@ public class TimerThread extends Thread{
 				days++;
 				if ( days == (31 *3) ){
 					endElectoral(); // End the current peoples' roles to start anew
-					startVoting(); // Allow the players to votr
-					Thread.sleep( (1000 * 60) *20) // Sleep for one MC day
+					startVotes(); // Allow the players to votr
+					Thread.sleep( (1000 * 60) *20); // Sleep for one MC day
 					endVoting(); // Don't allow the players to vote anymore
 					days = 0;
 				}else{
