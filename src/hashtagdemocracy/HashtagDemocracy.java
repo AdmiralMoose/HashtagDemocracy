@@ -1,9 +1,8 @@
 
 package hashtagdemocracy;
 
-import hashtagdemocracy.monthsHandler.TimeExpired;
-import hashtagdemocracy.monthsHandler.TimerThread;
 import hashtagdemocracy.events.VotingHandler;
+import hashtagdemocracy.monthsHandler.TimerThread;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;

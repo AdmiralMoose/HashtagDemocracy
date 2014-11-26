@@ -1,9 +1,10 @@
-package hashtagdemocracy.monthsHandler;
+package hashtagdemocracy.events;
 
+import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class StartVoting extends Event {
+public class StartVoting extends Event implements Cancellable {
 	
   	public static HandlerList handlers = new HandlerList();
 

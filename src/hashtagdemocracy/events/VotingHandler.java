@@ -3,7 +3,7 @@ package hashtagdemocracy.events;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-public class VotingHandler extends Listener{
+public class VotingHandler implements Listener{
   
   @EventHandler
   public void endElectoral(TimeExpired event){

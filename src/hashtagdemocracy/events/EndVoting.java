@@ -1,15 +1,16 @@
-package hashtagdemocracy.monthsHandler;
+package hashtagdemocracy.events;
 
+import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class TimeExpired extends Event {
+public class EndVoting extends Event implements Cancellable {
 	
-	public static HandlerList handlers = new HandlerList();
+  	public static HandlerList handlers = new HandlerList();
 
     private boolean cancelled;
  
-    public TimeExpired() {
+    public EndVoting() {
         
     }
  
@@ -28,5 +29,4 @@ public class TimeExpired extends Event {
     public static HandlerList getHandlerList() {
         return handlers;
     }
-
 }
