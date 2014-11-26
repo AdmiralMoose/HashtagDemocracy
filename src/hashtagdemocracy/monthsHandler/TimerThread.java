@@ -20,8 +20,10 @@ public class TimerThread extends Thread{
 				Thread.sleep( (1000 * 60) *20 ); // Sleep for 20 mins ( 1 MC Day)
 				days++;
 				if ( days == (31 *3) ){
-					callEvent();
-					//TODO: Add a one day wait for voting etc.
+					endElectoral(); // End the current peoples' roles to start anew
+					startVoting(); // Allow the players to votr
+					Thread.sleep( (1000 * 60) *20) // Sleep for one MC day
+					endVoting(); // Don't allow the players to vote anymore
 					days = 0;
 				}else{
 					int daysLeft = (31 * 3) - days;
@@ -39,10 +41,18 @@ public class TimerThread extends Thread{
 		interrupt();
 	}
 	
-	private void callEvent(){
+	private void endElectoral(){
 		TimeExpired event = new TimeExpired();
 		Bukkit.getPluginManager().callEvent(event);
 	}
 	
+	private void startVotes(){
+		StartVoting event = new StartVoting();
+		Bukkit.getPluginManager().callEvent(event);
+	}
+	private void endVoting(){
+		EndVoting event = new EndVoting();
+		Bukkit.getPluginManager().callEvent(event);
+	}
 	
 }
