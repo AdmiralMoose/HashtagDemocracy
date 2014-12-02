@@ -1,5 +1,12 @@
-<? ?>
-
-<bill name="This is the bill's name" description="This is a description">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+The XML files used by HashTag Democracy allow you to use colour codes. Just add a back-tick (`) instead of the & or the §
+-->
+<bills>
   
-</bill>
+  <bill name="`7This `2is `athe `2bill `1name" description="This is a description\nThis will breifly tell the players what they can/cannot do!">
+      
+  </bill>
+  
+  
+</bills>
