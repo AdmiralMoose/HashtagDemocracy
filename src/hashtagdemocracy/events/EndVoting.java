@@ -9,6 +9,7 @@ public class EndVoting extends Event implements Cancellable {
   	public static HandlerList handlers = new HandlerList();
 
     private boolean cancelled;
+    
  
     public EndVoting() {
         
