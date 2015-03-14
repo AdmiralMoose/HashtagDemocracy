@@ -15,7 +15,7 @@ Name: **HashtagDemocracy**
 
 **[TGRHavoc](http://github.com/TGRHavoc "TGRHavoc")**
 
-**[JOSHSLAYDE](http://github.com/JOSHSLAYDE "JOSHSLAYDE")**
+**[SlaydeVentures](http://github.com/SlaydeVentures "SlaydeVentures")**
 
 Github Repo (Clone URL): https://github.com/AdmiralMoose/HashtagDemocracy.git 
 
